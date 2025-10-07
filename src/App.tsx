@@ -1,9 +1,23 @@
-import type { Component } from 'solid-js';
+import { onMount, type Component } from "solid-js"
+import RootLayout from "./layout/RootLayout"
+import Home from "./pages/Home"
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 const App: Component = () => {
-  return (
-    <p class="text-4xl text-green-700 text-center py-20">Hello tailwind!</p>
-  );
-};
+  onMount(() => {
+    AOS.init({
+      duration: 800,
+      offset: 100,
+      once: true,
+    })
+  })
 
-export default App;
+  return (
+    <RootLayout>
+      <Home />
+    </RootLayout>
+  )
+}
+
+export default App
