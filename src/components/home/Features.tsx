@@ -46,6 +46,7 @@ const Features = () => {
       <div
          id="features"
          data-aos="fade-up"
+         data-aos-offset="20"
          data-aos-delay="500"
       >
          <button 

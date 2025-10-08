@@ -37,7 +37,7 @@ const Function = () => {
   return (
       <div>
          {/* Top feature navigation */}
-         <div
+         <div data-aos="fade-up" data-aos-offset="20" data-aos-duration="500"
          class={`lg:flex mx-auto items-center justify-between lg:px-4 py-2 rounded-xl border border-[#ffffff11] transition-colors duration-300 ${
             darkMode() ? "bg-[#171d25bb]" : "bg-[#EDF5FF]"
          }`}
@@ -69,7 +69,8 @@ const Function = () => {
 
          {/* Content + Image */}
          <div class="flex flex-col lg:flex-row justify-center items-center gap-20 mt-12">
-            <div class="w-full lg:max-w-[45%] space-y-6 order-2 lg:order-1">
+            <div data-aos="fade-right" data-aos-offset="20" data-aos-duration="900"
+             class="w-full lg:max-w-[45%] space-y-6 order-2 lg:order-1">
                <h2 class="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold leading-tight">
                   {featureContent[active()].title}
                </h2>
@@ -77,7 +78,8 @@ const Function = () => {
                <p>{featureContent[active()].desc2}</p>
             </div>
 
-            <div class="order-1 lg:order-2 hidden lg:block">
+            <div data-aos="fade-left" data-aos-offset="20" data-aos-duration="900" 
+            class="order-1 lg:order-2 hidden lg:block">
                <img
                   src={darkMode() ? Img1 : Img2}
                   alt="A SaaS startup illustration"

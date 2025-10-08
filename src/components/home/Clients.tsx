@@ -5,7 +5,7 @@ import img2 from "../../assets/shaped2.svg"
 const Clients = () => {
    return (
       <div
-         class={`mx-auto space-y-6 items-center text-center px-2 md:px-4 py-15 rounded-xl transition-colors duration-300 ${
+         class={`mx-auto space-y-6 items-center text-center px-2 md:px-4 py-10 md:py-20 rounded-xl transition-colors duration-300 ${
             darkMode() ? "bg-[#171d25bb]" : "bg-[#EDF5FF]"
          }`}
       >

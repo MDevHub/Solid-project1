@@ -10,6 +10,7 @@ const Sol2 = () => {
       <div
         class="w-full lg:max-w-[50%] space-y-6 order-2 lg:order-1"
         data-aos="fade-right"
+        data-aos-offset="20"
         data-aos-delay="300"
       >
         <p class="uppercase tracking-wide text-sm font-medium ">
@@ -42,6 +43,7 @@ const Sol2 = () => {
       <div
         class="mb-5 md:mb-0 order-1 lg:order-2"
         data-aos="fade-left"
+        data-aos-offset="20"
         data-aos-delay="300"
       >
          <img

@@ -7,6 +7,7 @@ const Sol1 = () => {
       <div class="lg:flex justify-between gap-10 md:gap-20">
          <div class="mb-10 md:mb-0"
             data-aos="fade-right"
+            data-aos-offset="20"
             data-aos-delay="300"
          >
             <img
@@ -18,6 +19,7 @@ const Sol1 = () => {
          
          <div class="w-full lg:max-w-[50%] space-y-6"
             data-aos="fade-left"
+            data-aos-offset="20"
             data-aos-delay="300"
          >
             <div class="flex gap-2 sm:gap-5 items-center">

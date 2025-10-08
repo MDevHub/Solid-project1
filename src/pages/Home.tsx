@@ -1,10 +1,15 @@
+import Blog from "../components/home/Blog"
 import Clients from "../components/home/Clients"
 import Collab from "../components/home/Collab"
+import Faq from "../components/home/Faq"
 import Features from "../components/home/Features"
 import Function from "../components/home/Function"
 import Hero from "../components/home/Hero"
+import Integration from "../components/home/Integration"
+import Join from "../components/home/Join"
 import Sol1 from "../components/home/Sol1"
 import Sol2 from "../components/home/Sol2"
+import Testimonial from "../components/home/Testimonial"
 
 const Home = () => {
   return (
@@ -29,6 +34,21 @@ const Home = () => {
       </div>
       <div class="px-4 md:px-6 pt-18 md:pt-28 ">
         <Clients />
+      </div>
+      <div class="px-4 md:px-6 pt-18 md:pt-28 ">
+        <Integration />
+      </div>
+      <div class="px-4 md:px-6 pt-18 md:pt-28 ">
+        <Join />
+      </div>
+      <div class="px-4 md:px-6 pt-18 md:pt-28 ">
+        <Faq />
+      </div>
+      <div class="px-4 md:px-6 pt-18 md:pt-28 ">
+        <Testimonial />
+      </div>
+      <div class="px-4 md:px-6 pt-18 md:pt-28 ">
+        <Blog />
       </div>
     </div>
   )

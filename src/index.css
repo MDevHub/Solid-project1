@@ -9,6 +9,9 @@ html, body {
   scrollbar-width: none; /* Firefox */
 }
 
+/* section {
+  scroll-margin-top: 50px; 
+} */
 
 
 body {
