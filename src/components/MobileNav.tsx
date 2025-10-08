@@ -61,7 +61,7 @@ const MobileNav: Component = () => {
           <X size={26} />
         </button>
 
-        <ul class="flex flex-col gap-6 p-8 mt-16 text-lg font-semibold">
+        <ul class="flex flex-col gap-6 p-8 mt-16 text-lg text-center font-semibold">
           <li class="cursor-pointer hover:text-blue-600 transition" onClick={() => handleScroll("home")}>Home</li>
           <li class="cursor-pointer hover:text-blue-600 transition" onClick={() => handleScroll("features")}>Features</li>
           <li class="cursor-pointer hover:text-blue-600 transition" onClick={() => handleScroll("integration")}>Integration</li>
