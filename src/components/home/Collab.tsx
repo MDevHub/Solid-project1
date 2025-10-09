@@ -42,7 +42,7 @@ const Collab = () => {
           darkMode() ? "" : "bg-[#f3f4f6]"
         }`}
       >
-        <div class="mx-auto max-w-[1400px] grid grid-cols-3 md:grid-cols-6 gap-10 items-center justify-center">
+        <div class="mx-auto max-w-[1400px] grid grid-cols-3 px-4 md:grid-cols-6 gap-10 items-center justify-center">
           <For each={brands}>
             {(logo, i) => (
               <img

@@ -17,7 +17,7 @@ const Join = () => {
             Increase your productivity <br class="hidden md:block" />
             with Fine Grained Reactivity
          </h2>
-        <p class="text-base md:text-lg text-gray-600 dark:text-gray-300">
+        <p class="text-base md:text-lg dark:text-gray-300">
           Experience lightning-fast rendering and true  <br />reactivity built for modern web apps.
         </p>
       </div>
