@@ -14,40 +14,40 @@ import Testimonial from "../components/home/Testimonial"
 const Home = () => {
   return (
     <div class="pt-30 md:pt-45">
-      <div class="px-4 md:px-6">
+      <div class="mx-auto max-w-[1400px] px-4 md:px-6">
         <Hero />
       </div>
       <div class="pt-15 md:pt-25">
         <Collab/>
       </div>
-      <div class="px-4 md:px-6 pt-18 md:pt-28 ">
+      <div class="mx-auto max-w-[1400px] px-4 md:px-6 pt-18 md:pt-28 ">
         <Features />
       </div>
-      <div class="px-4 md:px-6 pt-18 md:pt-28 ">
+      <div class="mx-auto max-w-[1400px] px-4 md:px-6 pt-18 md:pt-28 ">
         <Sol1 />
       </div>
-      <div class="px-4 md:px-6 pt-18 md:pt-28 ">
+      <div class="mx-auto max-w-[1400px] px-4 md:px-6 pt-18 md:pt-28 ">
         <Sol2 />
       </div>
-      <div class="px-4 md:px-6 pt-18 md:pt-28 ">
+      <div class="mx-auto max-w-[1400px] px-4 md:px-6 pt-18 md:pt-28 ">
         <Function />
       </div>
-      <div class="px-4 md:px-6 pt-18 md:pt-28 ">
+      <div class="mx-auto max-w-[1400px] px-4 md:px-6 pt-18 md:pt-28 ">
         <Clients />
       </div>
-      <div class="px-4 md:px-6 pt-18 md:pt-28 ">
+      <div class="mx-auto max-w-[1400px] px-4 md:px-6 pt-18 md:pt-28 ">
         <Integration />
       </div>
-      <div class="px-4 md:px-6 pt-18 md:pt-28 ">
+      <div class="mx-auto max-w-[1400px] px-4 md:px-6 pt-18 md:pt-28 ">
         <Join />
       </div>
-      <div class="px-4 md:px-6 pt-18 md:pt-28 ">
+      <div class="mx-auto max-w-[1400px] px-4 md:px-6 pt-18 md:pt-28 ">
         <Faq />
       </div>
-      <div class="px-4 md:px-6 pt-18 md:pt-28 ">
+      <div class="mx-auto max-w-[1400px] px-4 md:px-6 pt-18 md:pt-28 ">
         <Testimonial />
       </div>
-      <div class="px-4 md:px-6 pt-18 md:pt-28 ">
+      <div class="mx-auto max-w-[1400px] px-4 md:px-6 pt-18 md:pt-28 ">
         <Blog />
       </div>
     </div>

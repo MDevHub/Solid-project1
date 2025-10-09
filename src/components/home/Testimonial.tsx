@@ -17,7 +17,7 @@ const Testimonial = () => {
 	return (
 		<div id="testimonial" class="">
 			<button
-			class={`flex uppercase mx-auto font-[500] items-center justify-center px-4 py-2 rounded-full border border-[#ffffff11] transition-colors duration-300 ${
+			class={`flex uppercase mx-auto font-[500] items-center justify-center py-2 rounded-full border border-[#ffffff11] transition-colors duration-300 ${
 				darkMode() ? "bg-[#171d25bb] text-[#F3F4F6]" : "bg-[#EDF5FF]"
 			}`}
 			>

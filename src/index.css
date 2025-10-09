@@ -5,14 +5,10 @@
   display: none;
 }
 html, body {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
 }
-
-/* section {
-  scroll-margin-top: 50px; 
-} */
-
 
 body {
   background-color: #ffffff; /* light default */
