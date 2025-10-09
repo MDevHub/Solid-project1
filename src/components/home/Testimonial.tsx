@@ -17,7 +17,7 @@ const Testimonial = () => {
 	return (
 		<div id="testimonial" class="">
 			<button
-			class={`flex uppercase mx-auto font-[500] items-center justify-center py-2 rounded-full border border-[#ffffff11] transition-colors duration-300 ${
+			class={`flex uppercase mx-auto font-[500] items-center justify-center px-4 py-2 rounded-full border border-[#ffffff11] transition-colors duration-300 ${
 				darkMode() ? "bg-[#171d25bb] text-[#F3F4F6]" : "bg-[#EDF5FF]"
 			}`}
 			>
@@ -37,7 +37,7 @@ const Testimonial = () => {
 			<div class="flex">
 				<For each={testimonials}>
 					{(item) => (
-					<div class="flex-[0_0_100%] md:flex-[0_0_50%] p-4">
+					<div class="flex-[0_0_100%] md:flex-[0_0_50%]">
 						<div
 							class={`h-full flex flex-col justify-betwee rounded-xl p-6 md:p-8 transition-all duration-300 border ${
 							darkMode()
